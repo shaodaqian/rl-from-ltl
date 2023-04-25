@@ -1,6 +1,6 @@
 # Sample Efficient Model-free Reinforcement Learning from LTL Specifications with Optimality Guarantees
 
-This repository includes the implementation of the our proposed methods in the paper.
+This repository includes the implementation of our IJCAI 2023 paper, "Sample Efficient Model-free Reinforcement Learning from LTL Specifications with Optimality Guarantees".
 
 ## Dependencies
 
