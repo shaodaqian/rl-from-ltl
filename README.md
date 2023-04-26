@@ -8,11 +8,15 @@ Linear Temporal Logic (LTL) is widely used to specify high-level objectives for 
 
 ## Dependencies
 
-- [Python](https://www.python.org/): (>=3.6)
-- [Rabinizer 4](https://www7.in.tum.de/~kretinsk/rabinizer4.html): ```ltl2ldba``` must be in ```PATH``` (```ltl2ldra``` is optional)
+The followings are the essential tools and libraries to run our RL algorithms:
+
+- [Python](https://www.python.org/): (>=3.7)
+- [Rabinizer 4](https://www7.in.tum.de/~kretinsk/rabinizer4.html): ```ltl2ldba``` must be in ```PATH``` (```ltl2ldra``` is optional)  
+Download from https://www7.in.tum.de/~kretinsk/rabinizer4.html and follow instructions to add ```ltl2ldba``` to ```PATH```
 - [PRISM](https://www.prismmodelchecker.org/): (>=4.7), ```prism``` must be in ```PATH```  
-- [NumPy](https://numpy.org/): (>=1.16)
-- [Matplotlib](https://matplotlib.org/): (>=3.03)
+Download from https://www.prismmodelchecker.org/download.php and follow installation instructions.
+- Python Libraries  
+Create a new conda environment and run ```pip install -e requirements.txt```.
 
 ## Basic Usage
 
