@@ -6,6 +6,17 @@ This repository includes the implementation of our IJCAI 2023 paper, "Sample Eff
 
 Linear Temporal Logic (LTL) is widely used to specify high-level objectives for system policies, and it is highly desirable for autonomous systems to learn the optimal policy with respect to such specifications. However, learning the optimal policy with respect to LTL specifications is not trivial. We present a model-free Reinforcement Learning (RL) approach that efficiently learns an optimal policy for an unknown stochastic system, modelled using Markov Decision Processes (MDPs). We propose a novel and more general product MDP, reward structure and discounting mechanism that, when applied in conjunction with off-the-shelf model-free RL algorithms, efficiently learn the optimal policy that maximizes the probability of satisfying a given LTL specification with optimality guarantees. We also provide improved theoretical results on choosing the key parameters in RL to ensure optimality. To directly evaluate the learned policy, we adopt probabilistic model checker PRISM to compute the probability of the policy satisfying such specifications. Several experiments on various tabular MDP environments across different LTL tasks demonstrate the improved sample efficiency and optimal policy convergence.
 
+## Citation
+
+```
+@inproceedings{a,
+    title={Sample Efficient Model-free Reinforcement Learning from LTL Specifications with Optimality Guarantees},
+    author={Daqian Shao and Marta Kwiatkowska},
+    year={2023},
+    booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+}
+```
+
 ## Dependencies
 
 The followings are the essential tools and libraries to run our RL algorithms:
