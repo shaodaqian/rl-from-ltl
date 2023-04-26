@@ -9,7 +9,7 @@ Linear Temporal Logic (LTL) is widely used to specify high-level objectives for 
 ## Citation
 
 ```
-@inproceedings{a,
+@inproceedings{shao2023ltl,
     title={Sample Efficient Model-free Reinforcement Learning from LTL Specifications with Optimality Guarantees},
     author={Daqian Shao and Marta Kwiatkowska},
     year={2023},
